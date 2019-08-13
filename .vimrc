@@ -51,6 +51,8 @@ set number
 set mouse=a
 let g:NetrwIsOpen=1
 
+" Function to toggle Netrw
+
 function! ToggleNetrw()
     if g:NetrwIsOpen
         let i = bufnr("$")
@@ -67,5 +69,10 @@ function! ToggleNetrw()
     endif
 endfunction
 
+
+
 " Toggles Newtrw
 noremap <silent> <F2> :call ToggleNetrw()<CR>
+" Dirty toggle :( Don't know how to write a vimrc function :(...
+noremap <silent> <F3> :set nonumber<CR>
+noremap <silent> <F4> :set number<CR>
