@@ -1,7 +1,6 @@
 # My vimrc settings :)
 # Feel free to use it!
 
-
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/Tolsadus/42homebrewfix/master/install.sh)"
 
